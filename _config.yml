@@ -14,35 +14,38 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: George Thinks Data and AI # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Practical Thoughts on Data, AI, and Innovation # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Hi, I'm George — welcome to George Thinks Data and AI!
+  This is where I share what I'm learning, building, and thinking about in the world of Data and AI. From hands-on lessons with MLOps, to big-picture topics like AI strategy and governance, everything here comes from real projects, real challenges, and real wins.
+  My goal is simple: to make Data and AI a little clearer, a little more practical, and a lot more actionable — for anyone who wants to turn great ideas into real-world impact.
+  Thanks for stopping by — let's learn and build together!
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://instanas2014.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: instanas2014 # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+# twitter:
+#  username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: George Seah
+  email: instanas2014@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/instanas2014 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/george-seah-jin-siang
 
 # Site Verification Settings
 webmaster_verifications:
@@ -98,7 +101,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/img/favicons/7.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
