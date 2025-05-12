@@ -78,5 +78,89 @@ Both are critical — but without a clear, well-articulated strategy, even the b
 
 ---
 
-## Key Pointers I Have Learned from the books 
-(*to be added in the next update*)
+## 🔑 Key Insights for a Practical Data & AI Strategy
+
+### 1. No Data? Start Rule-Based.
+If you lack quality data for ML/DL, begin with rule-based automation. It helps collect useful data and test key features and targets.
+
+### 2. Use B-CIDS to Guide Readiness.
+**B-CIDS** = Business, Culture, Infrastructure, Data, Skills — your foundation before launching the AI journey.
+
+### 3. Two Doors to AI Opportunity.
+Start with a clear business problem (**top-down**) or uncover pain points in processes, customer journeys, or legacy systems (**bottom-up**).
+
+### 4. Hiring Isn’t Enough.
+A few data scientists or engineers alone won’t transform your business. Structure, strategy, and cross-functional alignment are key.
+
+### 5. Iterate Your Strategy.
+Avoid the “big bang” approach. Build iteratively and show value step-by-step.
+
+### 6. Don’t Use a Hammer for Every Nail.
+ML is powerful, but not always necessary. Sometimes simple stats or search logic is enough.
+
+### 7. Know the Two Flavors of ML.
+- **Analytical ML** for insights  
+- **Operational ML** for continuous decision-making (e.g., recommendations, anomaly detection)
+
+### 8. AI Transformation Takes Time.
+The biggest gains are visible in hindsight. Be patient—long-term value builds gradually.
+
+### 9. Your AI is Only as Good as Your Data.
+Poor data quality limits AI outcomes. Invest early in data quality and management.
+
+### 10. Avoid the “One-Use-Case Trap.”
+Don't hinge your transformation on one flashy AI case. Without culture and readiness, it stalls.
+
+### 11. Measure What Matters.
+Track success across:
+- **Business impact**
+- **User adoption**
+- **Technical performance**
+
+### 12. Clarify Strategy, Plan, and TOM.
+- **Strategy** = Why & What  
+- **Plan** = Where, How, When  
+- **TOM (Target Operating Model)** = Who
+
+### 13. Start Small. Think Big.
+Big change = sum of small, scalable wins. Build momentum with MVPs.
+
+### 14. BM’s Data Strategy Framework:
+1. Link business strategy to **top 5 data use cases**
+2. Define:
+   - Data requirements  
+   - Data governance  
+   - Technology  
+   - Skills & capacity  
+   - Implementation & change management
+
+### 15. From Digital to AI-Native.
+Every business is becoming a **Data & AI business**.  
+Make AI part of your **core strategy**, not just an alignment.
+
+Focus on:
+- Decision-making & automation  
+- Customers & markets  
+- Products & services
+
+### 16. Stay Strategic.
+Resist applying AI where it doesn’t align with business goals.
+
+### 17. Leadership Must Lead.
+Executive **AI literacy and sponsorship** are essential. Change starts at the top.
+
+### 18. Pilot with Purpose.
+Treat MVPs as real, scalable solutions. Budget for deployment, not just POC.
+
+### 19. Iterate Financially, Too.
+Stay ballpark with ROI estimates. Refine as you go and aim for self-funding through value delivered.
+
+### 20. Manage AI-Specific Risks.
+Proactively address:
+- Technical  
+- Operational  
+- Societal  
+- Reputational  
+- Security  
+- Data  
+- Compliance risks
