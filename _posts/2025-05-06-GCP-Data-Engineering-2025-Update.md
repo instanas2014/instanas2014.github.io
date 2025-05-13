@@ -5,11 +5,16 @@ categories: [Data Engineering]
 tags: [Cloud Data Platform]
 ---
 
-I have been keeping myself up-to-date on GCP data technology since I first get myself certified on 2019.
-Many new features and capability has been added into GCP data technology landscape in these past 2 years and I think it make it actually harder to learn than it used to be.
-I will use this blogpost to summarize some of the key features
-I will use some other more famous product to help relate them back to what its commonly see in the market, please do not take it as a statement that it is an apple-to-apple the same. its more a "by-and-large similar" reference
-History tell me, its hard to compare technology apple-to-apple as it always have some small detail make them different from one to another
+I’ve been actively keeping up with GCP data technologies since earning my certification in 2019. Over the past two years, the GCP data ecosystem has evolved rapidly, with the introduction of new services and the expansion of existing ones. While these updates add powerful capabilities, they also increase the platform’s complexity—making it more challenging to navigate and master than it once was.
+
+In this blog post, I’ll summarize key components of the current GCP data landscape. To provide context, I’ll occasionally refer to similar tools from other platforms. These references are meant as rough comparisons—not exact equivalents—since each tool has unique behaviors, limitations, and design philosophies. Technology comparisons are rarely apples-to-apples, and small implementation details often matter greatly.
+
+TL;DR: What’s New and Interesting Compared to 2+ Years Ago?
+1. Dataform – GCP’s native offering for SQL-based data transformation workflows in BigQuery. Similar in concept to dbt, Dataform allows teams—especially those with strong SQL skills—to manage dependencies, version control, and testing of transformations using SQL without needing to resort to PySpark or Dataflow pipelines. It’s well-suited for ELT-style development within BigQuery.
+
+2. BigQuery Omni – A multicloud analytics solution that brings BigQuery’s familiar interface and query engine to data stored in AWS S3 or Azure Blob Storage. Rather than moving data into GCP, Omni runs the queries in-place using Anthos-based infrastructure. This can help reduce egress costs and latency, especially for hybrid cloud and multicloud architectures.
+
+3. Generative AI Workflows with Gemini in BigQuery – Gemini has been integrated into the BigQuery UI, offering natural language interaction for data exploration and transformation. Data analysts can use features like “Chat with your data” directly in the BigQuery editor, while data scientists can leverage Gemini for assisted data preparation and code generation. The new Data Canvas also provides a low-code interface to combine structured data workflows with GenAI-powered enhancements.
 
 ---
 
@@ -51,7 +56,7 @@ History tell me, its hard to compare technology apple-to-apple as it always have
     - Data Dictionary / Business Glossary
     - Data Lineage / Profiling / Quality Tasks
     - Access Control
-  - **Data Catalog** — Also referred to as BigQuery Universal Catalog
+  - **Data Catalog** — Also referred to as BigQuery Universal Catalog, part of Dataplex
 
 ### 4. Data Sharing
 
@@ -124,6 +129,7 @@ With these advancements, BigQuery stands as a strong competitor to platforms lik
 
 https://cloud.google.com/bigquery/docs/migration/schema-data-overview
 https://cloud.google.com/bigquery/docs/best-practices-performance-nested
+
 
 
 ---

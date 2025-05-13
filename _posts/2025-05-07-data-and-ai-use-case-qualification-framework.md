@@ -7,7 +7,7 @@ tags: [Data, AI, Strategy]
 
 # How to gather, qualify and prioritise the Data and AI use cases?
 
-As soon as you start defining your Data and AI strategy, organization will need to start gathering use cases. As strategy only as good as its execution, and to start reap benefit on your investment in definining the Data/AI strategy, organization will start break down the strategy and collecting multiple use cases
+As soon as you start defining your Data and AI strategy, organization will need to start gathering use cases. As strategy only as good as its execution, and to start reap benefit on your investment in definining the Data/AI strategy, organization will start break down the strategy and collect multiple use cases
 
 As organisations race to become more data-driven and AI-enabled, it's common to see teams overwhelmed with ideas, proofs of concept, and a growing backlog of use cases. But how do you know which use cases are worth pursuing—and which ones are likely to fail or drain resources?
 
@@ -143,6 +143,38 @@ Match capabilities to latent business needs or create new user experiences.
 
 Strength: Drives innovation and differentiation.
 Use When: Exploring disruptive ideas, engaging innovation labs, or responding to competitor moves.
+
+---
+## 📌 What Should You Record in Your Data & AI Use Cases?
+
+Bernard Marr has shared some excellent reference materials that provide a strong foundation for defining AI and data use cases:
+
+- [AI Use Case Template](https://bernardmarr.com/how-to-define-your-ai-artificial-intelligence-use-cases-with-handy-template/)
+- [Data Use Case Template](https://bernardmarr.com/how-to-define-a-data-use-case-with-handy-template/)
+
+These templates cover key elements such as business objectives, stakeholders, data sources, and success measures. However, one important enhancement worth considering is the **inclusion of estimated cost and potential ROI**.
+
+### 🎯 Why ROI Should Be Included
+
+Clearly articulating **expected ROI** strengthens the business case for a use case, especially when aligned to:
+
+- **Top-line impact**: e.g., revenue growth, increased market share
+- **Bottom-line impact**: e.g., cost reduction, improved operational efficiency
+- **Risk mitigation**: e.g., enhanced compliance, reduced fraud or error
+
+While risk-related use cases may not directly drive revenue or cost savings, they can still be **quantified in financial terms**. For example:
+
+> Under IFRS and GAAP accounting standards, significant business risks—such as compliance violations or operational disruptions—may require financial provisions in the P&L. This gives you a mechanism to tie risk mitigation efforts to quantifiable financial outcomes.
+
+### ✅ Recommendation
+
+For high-impact or strategic use cases, consider adding the following fields to your documentation:
+
+- **Estimated implementation cost** (licensing, infrastructure, resources)
+- **Expected financial impact** (e.g., projected savings, revenue uplift)
+- **ROI estimate** (based on leadership-aligned metrics like net profit, gross margin, or risk-adjusted benefit)
+
+Engaging senior stakeholders early to align on these metrics can significantly improve prioritization and sponsorship of your data and AI initiatives.
 
 ---
 
