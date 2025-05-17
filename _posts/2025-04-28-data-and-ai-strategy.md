@@ -1,166 +1,172 @@
 ---
-title: What does a Data and AI Strategy Do?
+title: What Does a Data and AI Strategy Do?
 date: 2025-04-28 00:34:00 +0800
 categories: [Data and AI Strategy]
 tags: [Data, AI, Strategy]
 ---
-# What does a Data and AI Strategy Do?
 
-**Data and AI strategy** has been a recurring topic at senior leadership discussions for quite some time.  
-Yet despite the attention, it often remains somewhat vague: *What exactly does it include? Why is it important?*
+# What Does a Data and AI Strategy Do?
 
-Recently, I had the chance to dive into three insightful books:
-- **Data Strategy** – Bernard Marr
-- **AI Strategy** – Bernard Marr
+**Data and AI strategy** has become a regular item on the agendas of senior leadership teams — and for good reason.  
+But despite the attention, it often remains vague: *What exactly is it? Why is it important? And what makes it strategic?*
+
+Recently, I had the opportunity to revisit three excellent books:
+- **Data Strategy** – Bernard Marr  
+- **AI Strategy** – Bernard Marr  
 - **The Business Case for AI** – Kavita Ganesan
 
-These readings strongly resonated with my own real-world experiences. They not only validated many of the challenges and patterns I’ve seen in practice, but also gave me a much sharper and more structured view of what a Data and AI Strategy should truly entail — and why getting it right is more critical than ever.
+These readings deeply resonated with my own real-world experiences and helped clarify what a Data and AI Strategy should **truly** entail. Most importantly, they reinforced a powerful insight:
+
+> **Strategy is not just about alignment or high-level goals — it's about making deliberate choices that position a firm uniquely in the market.**
 
 ---
 
 ## What Is a Data and AI Strategy?
 
-At its core, a Data and AI Strategy answers the **"Why"** and the **"What"** behind how an organization uses data and AI to achieve its business goals.
+At its core, a Data and AI Strategy answers two key questions:
+- **Why** data and AI are crucial to achieving your business ambitions  
+- **What** specific actions, use cases, and enablers will set you apart
 
-**For example**, imagine a company's business strategy focuses on:
-1. Achieving **net zero emissions**, and
-2. Delivering a **best-in-class customer experience**.
+More than a checklist or alignment exercise, a strategy is a **choice** — about where to compete, how to win, and how to build advantage through data and AI.
 
-A strong Data and AI Strategy would explain:
+---
 
-- **Why** data and AI matter for these goals:
-  - Data and AI allow better tracking of environmental metrics, generate actionable insights, and enable faster execution through AI-driven automation.
-  - Data and AI drive hyper-personalized customer experiences that deepen loyalty and satisfaction.
+### Example: Turning Goals into Differentiation
 
-- **What** needs to happen to enable it:
-  1. Apply data and AI to ESG initiatives, like carbon emission optimization and ESG reporting.
-  2. Implement hyper-personalization across customer journeys.
-  3. Redesign the Data and AI operating model to be more agile and scalable.
-  4. Strengthen data governance frameworks to manage risks and quality.
-  5. Upgrade technology and infrastructure to support future demands.
+Let’s say a company’s business strategy focuses on:
 
-In short, the strategy creates a clear bridge from **business ambition** to **data and AI action**.
+1. Achieving **net zero emissions**, and  
+2. Delivering a **best-in-class customer experience**
+
+A high-impact Data and AI Strategy doesn’t just support these goals — it **shapes how they’re achieved in ways competitors can’t easily follow**.
+
+#### The **Why**:
+- Data and AI enable **real-time tracking** and **predictive optimization** of carbon emissions, not just retrospective reporting.
+- AI enables **hyper-personalized customer journeys**, anticipating needs and proactively delivering value.
+
+#### The **What**:
+1. Build proprietary AI models to forecast and optimize emissions — providing a **carbon intelligence edge**.
+2. Deploy a personalization engine that adapts content, offers, and interactions in real-time across every channel.
+3. Restructure delivery teams to **embed AI practitioners in the business**, enabling fast experimentation and iteration.
+4. Define a data governance approach that **creates trusted, reusable data products**, not just reports.
+5. Upgrade to a modern data platform that allows **rapid scaling of new use cases**, while competitors are still migrating legacy systems.
+
+👉 **This is differentiation**: Not just doing the same things better, but doing fundamentally better things — faster, deeper, and at scale.
 
 ---
 
 ## How Is Data and AI Strategy Evolving?
 
-Traditionally, the advice was simple: **align data and AI initiatives with business strategy**.  
-In other words, business goals came first, and data and AI played a supporting role.
+Traditionally, organizations approached strategy by asking:  
+“How can data and AI help us achieve our business goals?”
 
-But in the emerging **AI-first era** — arguably already here — this thinking needs to evolve.  
-It’s no longer enough to just align after the fact.
+But in today’s **AI-first world**, the question must evolve into:  
+“What new goals, business models, or opportunities can data and AI make possible for us?”
 
-Today, **business strategy and Data/AI strategy must be designed together**.  
-Data and AI are no longer enablers sitting quietly in the background — they are fundamental drivers that can create new business models, new revenue streams, and competitive advantages.
-
-This shift changes the conversation at the top. It’s not just, "How can data and AI help us do this?" — it’s, "What opportunities and strategies can data and AI unlock for us that we couldn’t even imagine before?"
-
----
-
-## How Is It Different from an Implementation Plan?
-
-Another common mistake is confusing **strategy** with an **implementation plan**.
-
-- **Strategy** focuses on the **"Why"** and the **"What"** — the goals, the priorities, the areas of investment.
-- **Implementation plans** focus on the **"How," "When," "Where,"** and **"Who"** — how to deliver the strategy.
-
-An implementation plan typically includes:
-- Detailed use case requirements and a prioritized backlog
-- Timeline and major milestones
-- Scope and phased delivery
-- Budget and resource allocation
-
-Simply put:  
-**Strategy sets the destination. Implementation maps the journey.**
-
-Both are critical — but without a clear, well-articulated strategy, even the best execution risks going in the wrong direction.
+The best firms now build **business strategy and Data/AI strategy together**. That’s because:
+- Data and AI aren’t just enablers — they’re becoming **core to value creation**
+- Competitive advantage is increasingly **defined by how effectively organizations apply intelligence at scale**
 
 ---
 
-## 🔑 Key Insights for a Practical Data & AI Strategy
+## What’s the Difference Between Strategy and an Implementation Plan?
 
-### 1. No Data? Start Rule-Based.
-If you lack quality data for ML/DL, begin with rule-based automation. It helps collect useful data and test key features and targets.
+It’s common to confuse the two — but they’re not the same.
 
-### 2. Use B-CIDS to Guide Readiness.
-**B-CIDS** = Business, Culture, Infrastructure, Data, Skills — your foundation before launching the AI journey.
+- **Strategy** = The **Why** and **What**  
+- **Implementation Plan** = The **How**, **When**, **Where**, and **Who**
 
-### 3. Two Doors to AI Opportunity.
-Start with a clear business problem (**top-down**) or uncover pain points in processes, customer journeys, or legacy systems (**bottom-up**).
+| Strategy                                   | Implementation Plan                          |
+| ------------------------------------------ | -------------------------------------------- |
+| Explains purpose and positioning           | Details execution and delivery               |
+| Prioritizes where to play and how to win   | Breaks down timeline, teams, budget          |
+| Defines enablers (data, tech, skills, org) | Defines scope, sprints, and responsibilities |
 
-### 4. Hiring Isn’t Enough.
-A few data scientists or engineers alone won’t transform your business. Structure, strategy, and cross-functional alignment are key.
+Think of it this way:
 
-### 5. Iterate Your Strategy.
-Avoid the “big bang” approach. Build iteratively and show value step-by-step.
+> **Strategy sets the direction. Implementation maps the path.**
 
-### 6. Don’t Use a Hammer for Every Nail.
-ML is powerful, but not always necessary. Sometimes simple stats or search logic is enough.
+---
 
-### 7. Know the Two Flavors of ML.
-- **Analytical ML** for insights  
-- **Operational ML** for continuous decision-making (e.g., recommendations, anomaly detection)
+## 🔑 20 Practical Insights for a Strong Data & AI Strategy
 
-### 8. AI Transformation Takes Time.
-The biggest gains are visible in hindsight. Be patient—long-term value builds gradually.
+### 1. **No Data? Start Rule-Based.**  
+Use rule-based logic to begin automating and collecting useful data before jumping into ML.
 
-### 9. Your AI is Only as Good as Your Data.
-Poor data quality limits AI outcomes. Invest early in data quality and management.
+### 2. **Use B-CIDS to Assess Readiness.**  
+Evaluate **Business, Culture, Infrastructure, Data, and Skills** as your AI foundation.
 
-### 10. Avoid the “One-Use-Case Trap.”
-Don't hinge your transformation on one flashy AI case. Without culture and readiness, it stalls.
+### 3. **Top-Down or Bottom-Up — Both Work.**  
+Start with a clear business goal or discover pain points in existing processes.
 
-### 11. Measure What Matters.
-Track success across:
-- **Business impact**
-- **User adoption**
-- **Technical performance**
+### 4. **Hiring Alone Won’t Get You There.**  
+Transformation requires structure, operating models, and leadership — not just a few data scientists.
 
-### 12. Clarify Strategy, Plan, and TOM.
+### 5. **Iterate Your Strategy.**  
+Avoid big-bang efforts. Deliver in small, valuable steps to build momentum.
+
+### 6. **Use the Right Tools.**  
+Don’t overuse ML. Sometimes simpler techniques (stats, heuristics) do the job just fine.
+
+### 7. **Understand ML Types.**  
+- **Analytical ML** = insights and discovery  
+- **Operational ML** = real-time, continuous decisions (e.g., personalization, fraud)
+
+### 8. **Play the Long Game.**  
+AI transformation pays off gradually. Value compounds over time.
+
+### 9. **Invest in Data Quality Early.**  
+You can’t outsmart bad data. AI is only as good as its input.
+
+### 10. **Don’t Bet Everything on One Use Case.**  
+A single high-profile POC won’t transform your business. Build broader readiness.
+
+### 11. **Measure What Matters.**  
+Track:
+- Business value
+- User adoption
+- Technical performance
+
+### 12. **Clarify Strategy vs. Plan vs. TOM.**  
 - **Strategy** = Why & What  
-- **Plan** = Where, How, When  
+- **Plan** = Where, When, How  
 - **TOM (Target Operating Model)** = Who
 
-### 13. Start Small. Think Big.
-Big change = sum of small, scalable wins. Build momentum with MVPs.
+### 13. **Start Small, Think Big.**  
+Build MVPs that scale. Compound value through iteration.
 
-### 14. BM’s Data Strategy Framework:
-1. Link business strategy to **top 5 data use cases**
-2. Define:
-   - Data requirements  
-   - Data governance  
-   - Technology  
-   - Skills & capacity  
-   - Implementation & change management
+### 14. **Use Bernard Marr’s Framework:**  
+For each top use case, define:
+- Data needs  
+- Governance  
+- Tech foundation  
+- Skills & teams  
+- Change management
 
-### 15. From Digital to AI-Native.
-Every business is becoming a **Data & AI business**.  
-Make AI part of your **core strategy**, not just an alignment.
+### 15. **Move Toward an AI-Native Model.**  
+Don't just digitize old processes — reimagine them through an AI lens.
 
-Focus on:
-- Decision-making & automation  
-- Customers & markets  
-- Products & services
+### 16. **Stay Strategic.**  
+Avoid “AI for AI’s sake.” Focus on areas where it **moves the needle**.
 
-### 16. Stay Strategic.
-Resist applying AI where it doesn’t align with business goals.
+### 17. **Leadership Must Lead.**  
+AI literacy at the executive level is a must. Change starts at the top.
 
-### 17. Leadership Must Lead.
-Executive **AI literacy and sponsorship** are essential. Change starts at the top.
+### 18. **Pilot with Purpose.**  
+Build MVPs that are scalable and budget for operational rollout — not just POCs.
 
-### 18. Pilot with Purpose.
-Treat MVPs as real, scalable solutions. Budget for deployment, not just POC.
+### 19. **Be Financially Iterative.**  
+Don’t wait for perfect ROI models. Deliver early wins, then reinvest.
 
-### 19. Iterate Financially, Too.
-Stay ballpark with ROI estimates. Refine as you go and aim for self-funding through value delivered.
+### 20. **Actively Manage AI Risk.**  
+Cover all angles — from security and compliance to fairness and explainability.
 
-### 20. Manage AI-Specific Risks.
-Proactively address:
-- Technical  
-- Operational  
-- Societal  
-- Reputational  
-- Security  
-- Data  
-- Compliance risks
+---
+
+## Final Thought
+
+A good Data and AI Strategy doesn’t just support the business —  
+> **It redefines what’s possible, and charts a bold, differentiated path to get there.**
+
+In the age of AI, strategy isn't about following — it's about **leading through intelligence**.
+
