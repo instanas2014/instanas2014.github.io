@@ -9,12 +9,12 @@ I’ve been actively keeping up with GCP data technologies since earning my cert
 
 In this blog post, I’ll summarize key components of the current GCP data landscape. To provide context, I’ll occasionally refer to similar tools from other platforms. These references are meant as rough comparisons—not exact equivalents—since each tool has unique behaviors, limitations, and design philosophies. Technology comparisons are rarely apples-to-apples, and small implementation details often matter greatly.
 
-TL;DR: What’s New and Interesting Compared to 2+ Years Ago?
-1. Dataform – GCP’s native offering for SQL-based data transformation workflows in BigQuery. Similar in concept to dbt, Dataform allows teams—especially those with strong SQL skills—to manage dependencies, version control, and testing of transformations using SQL without needing to resort to PySpark or Dataflow pipelines. It’s well-suited for ELT-style development within BigQuery.
+### What’s New and Interesting Compared to 2+ Years Ago?
+1. **Dataform** – GCP’s native offering for SQL-based data transformation workflows in BigQuery. Similar in concept to dbt, Dataform allows teams—especially those with strong SQL skills—to manage dependencies, version control, and testing of transformations using SQL without needing to resort to PySpark or Dataflow pipelines. It’s well-suited for ELT-style development within BigQuery.
 
-2. BigQuery Omni – A multicloud analytics solution that brings BigQuery’s familiar interface and query engine to data stored in AWS S3 or Azure Blob Storage. Rather than moving data into GCP, Omni runs the queries in-place using Anthos-based infrastructure. This can help reduce egress costs and latency, especially for hybrid cloud and multicloud architectures.
+2. **BigQuery Omni** – A multicloud analytics solution that brings BigQuery’s familiar interface and query engine to data stored in AWS S3 or Azure Blob Storage. Rather than moving data into GCP, Omni runs the queries in-place using Anthos-based infrastructure. This can help reduce egress costs and latency, especially for hybrid cloud and multicloud architectures.
 
-3. Generative AI Workflows with Gemini in BigQuery – Gemini has been integrated into the BigQuery UI, offering natural language interaction for data exploration and transformation. Data analysts can use features like “Chat with your data” directly in the BigQuery editor, while data scientists can leverage Gemini for assisted data preparation and code generation. The new Data Canvas also provides a low-code interface to combine structured data workflows with GenAI-powered enhancements.
+3. **Generative AI Workflows with Gemini in BigQuery** – Gemini has been integrated into the BigQuery UI, offering natural language interaction for data exploration and transformation. Data analysts can use features like “Chat with your data” directly in the BigQuery editor, while data scientists can leverage Gemini for assisted data preparation and code generation. The new Data Canvas also provides a low-code interface to combine structured data workflows with GenAI-powered enhancements.
 
 ---
 
