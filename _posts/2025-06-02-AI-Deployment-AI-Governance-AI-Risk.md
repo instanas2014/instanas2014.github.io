@@ -13,7 +13,7 @@ While massive investments are being made in Data and AI to extract business valu
 
 # Deployment
 
-When it comes to deploying Data and AI solutions, **DataOps**, **MLOps**, and **LLMOps** into your deployment processes is critical. These practices extend **DevOps principles**—automation, monitoring, and continuous integration/deployment—into the data, machine learning, and generative AI domains.
+When it comes to deploying Data and AI solutions, Bring **DataOps**, **MLOps**, and **LLMOps** into your deployment processes is critical. These practices extend **DevOps principles**—automation, monitoring, and continuous integration/deployment—into the data, machine learning, and generative AI domains.
 
 ## What Are They?
 
@@ -153,7 +153,7 @@ Your data governance is the **foundation** of trustworthy and scalable AI:
 > If Data and AI use cases are your **spear**, Governance is your **shield**.
 
 🧾 Data breaches cost companies an average of **$4.88 million USD**. [Source](https://www.datarobot.com/blog/misbehaving-ai-cost/)  
-🧨 [5 Famous AI & Analytics Failures](https://www.cio.com/article/190888/5-famous-analytics-and-ai-disasters.html)
+🧨 [12 Famous AI & Analytics Failures](https://www.cio.com/article/190888/5-famous-analytics-and-ai-disasters.html)
 
 ---
 
@@ -245,16 +245,4 @@ You can't say you care about **AI safety** without taking a hard look at your **
 - IAPP Certified AI Governance Professional (AIGP): [Learn More](https://iapp.org/certify/aigp/)
 - Google, Microsoft, Databricks, AWS MLOps & Responsible AI documentation (linked above)
 - CIO.com, Datarobot breach cost studies 
-
----
-
-# 📬 Bonus: Subscribe for More
-
-If you're interested in:
-
-- Gen AI comparisons across regions  
-- Cross-border data/AI careers  
-- Asia Pacific Data and AI market trends  
-
-Then follow me on [YouTube](https://www.youtube.com/@GeorgeTheDataConsultant)
 

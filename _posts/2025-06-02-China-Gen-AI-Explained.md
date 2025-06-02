@@ -167,13 +167,3 @@ If you're:
 - A **Western AI practitioner** looking to work in China, pay attention to Alibaba’s Qwen and Baidu’s ERNIE — they’re leading the pack.
 - A **Chinese-speaking data pro** exploring opportunities in Southeast Asia, understanding both ecosystems will give you a unique edge.
 
----
-
-### 📬 Bonus: Subscribe for More
-
-If you're interested in:
-- Gen AI comparisons across regions  
-- Cross-border data/AI careers  
-- Asia Pasific Data and AI market trends  
-
-Then follow me on [YouTube](https://www.youtube.com/@GeorgeTheDataConsultant)
