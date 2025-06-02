@@ -10,7 +10,7 @@ tags: [Data, AI, Strategy]
 **Data and AI strategy** has become a regular item on the agendas of senior leadership teams — and for good reason.  
 But despite the attention, it often remains vague: *What exactly is it? Why is it important? And what makes it strategic?*
 
-Recently, I had the opportunity to revisit three excellent books:
+Recently, I had the opportunity to visit three excellent books:
 - **Data Strategy** – Bernard Marr  
 - **AI Strategy** – Bernard Marr  
 - **The Business Case for AI** – Kavita Ganesan
@@ -33,7 +33,7 @@ More than a checklist or alignment exercise, a strategy is a **choice** — abou
 
 ### Example: Turning Goals into Differentiation
 
-Let’s say a company’s business strategy focuses on:
+Let’s say a company’s business strategy that differentiate them from industry peers by focusing on:
 
 1. Achieving **net zero emissions**, and  
 2. Delivering a **best-in-class customer experience**
