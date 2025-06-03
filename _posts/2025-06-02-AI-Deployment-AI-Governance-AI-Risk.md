@@ -41,7 +41,7 @@ If you're in the Data and AI space long enough, you'll hear about **AIOps**. Unl
 
 ## A Three-Lens AI Governance Framework
 I suggest a 3 lens approach to manage your AI
-1. **Output-Based Management**:
+1. **Output-Based**:
    - **Autonomy**: How independently can the AI system operate?
    - **Agency**: Can we trust the AI to act on our behalf?
    - **Assurance**: Are safeguards in place for safety, reliability, and fairness?
@@ -49,12 +49,12 @@ I suggest a 3 lens approach to manage your AI
    - **Interfaces**: How do users interact with the system?
    - **Intentionality**: Is the AI system behaving as designed?
 
-2. **Role-Based Management**:
+2. **Role-Based**:
    - **Developer**: What ethical, security, and compliance factors to consider in development?
    - **Deployer**: Responsibilities when integrating AI into operational systems.
    - **User**: Guidelines for ethical and compliant use.
 
-3. **Risk-Based Management**:
+3. **Risk-Based**:
    - **Harm**: Define harm categories (e.g., MITRE PANOPTIC, CSET Taxonomy, Calo’s frameworks).
    - **Bias**: Human and systemic biases, not algorithmic bias-variance tradeoff.
    - **Security**: Data and model security.
@@ -268,6 +268,12 @@ A quick translation of multiple english term to chinese
 While use cases and technologies often take center stage, **Deployment**, **Governance**, and **Risk Management** are critical for sustainable, safe, and trustworthy AI transformation. Ignoring them exposes your organization to operational, ethical, and regulatory risks.
 
 You can't say you care about **AI safety** without taking a hard look at your **deployment practices**, **governance frameworks**, and **risk management capabilities**.
+
+![AI Governance][ai-governance-illustration]
+*3 lens of AI Governances Framework*
+
+[ai-governance-illustration]: assets/img/aigovernance.png
+
 
 ---
 
