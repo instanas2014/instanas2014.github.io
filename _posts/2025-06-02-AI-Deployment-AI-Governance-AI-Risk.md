@@ -35,7 +35,7 @@ If you're in the Data and AI space long enough, you'll hear about **AIOps**. Unl
 
 ---
 
-# Governance
+# AI Governance
 
 **AI Governance** refers to the framework of policies, roles, technologies, and procedures to ensure AI systems are developed and used responsibly, ethically, and legally. It spans development, deployment, usage, and compliance with internal and external regulations.
 
@@ -62,13 +62,20 @@ I suggest a 3 lens approach to manage your AI
    - **Legal Compliance**: Laws like GDPR, PDPA, EU AI Act.
    - **Operational Risks**: Failures, instability, misalignment with business intent.
 
+![3 facets of AI Governance][ai-governance-venn-diagram]
+*3 lens of AI Governances Framework*
+
+[ai-governance-venn-diagram]: assets/img/3lensofAIgovernance.png
+
+---
+
 ## AI Governance Framework Components
 
 Designing a robust AI governance framework means building a **system of guardrails** that ensures AI delivers value **safely, responsibly, and legally**. Below are the critical components every organization must define clearly and align to their operating context:
 
 ---
 
-### 🏛️ Governance Policy and Standard
+### 1. Governance Policy and Standard
 
 A formal document that outlines:
 
@@ -81,7 +88,7 @@ This policy is your **north star**, guiding all AI-related decision-making.
 
 ---
 
-### 🔄 Governance Processes
+### 2. Governance Processes
 
 AI governance must be embedded across the **AI lifecycle** through well-defined processes:
 
@@ -104,10 +111,11 @@ AI governance must be embedded across the **AI lifecycle** through well-defined 
 
 ---
 
-### 👥 Operating Model
+### 3. Operating Model
 
-Define clear roles, responsibilities, and workflows for AI governance execution:
-
+Define clear roles, responsibilities, organizational structure nd workflows for AI governance execution:
+- **Different operationg model**: Common models include **Centralized**, **Center of Excellence (CoE)**, and **Hub-and-Spoke**. The best choice depends on how your business is already structured. According to [Conway's Law](https://martinfowler.com/bliki/ConwaysLaw.html), systems tend to reflect the communication structure of the organization that builds them. The same applies here—your AI governance model should align with how your teams and business units naturally work together.
+- 
 - **Key Roles**:
   - **AI Governance Lead**
   - **Model Owner**
@@ -119,7 +127,7 @@ Define clear roles, responsibilities, and workflows for AI governance execution:
 
 ---
 
-### 🧰 Technology Stack
+### 4. Technology Stack
 
 Leverage tools and platforms that support the enforcement of governance policies and monitoring of AI systems:
 
@@ -131,9 +139,9 @@ Leverage tools and platforms that support the enforcement of governance policies
 
 ---
 
-### 🧾 Data Governance
+### 5. Data Governance
 
-Your data governance is the **foundation** of trustworthy and scalable AI:
+Your data governance is the **foundation** of trustworthy and scalable AI. AI Governance builds on it by introducing model-specific risk, ethics, and lifecycle controls.
 
 - **Data Quality Management**: Define and enforce data quality rules, thresholds, and alerting mechanisms.
 - **Metadata Management**: Ensure proper tagging, lineage tracking, and classification of all data assets.
@@ -151,9 +159,9 @@ Your data governance is the **foundation** of trustworthy and scalable AI:
 - Data Availability and Infrastructure
 
 > If Data and AI use cases are your **spear**, Governance is your **shield**.
-
-🧾 Data breaches cost companies an average of **$4.88 million USD**. [Source](https://www.datarobot.com/blog/misbehaving-ai-cost/)  
-🧨 [12 Famous AI & Analytics Failures](https://www.cio.com/article/190888/5-famous-analytics-and-ai-disasters.html)
+> Without proper governance, the financial risk is huge:  
+> - 💸 Data breaches cost companies **$4.88M on average** – [Source](https://www.datarobot.com/blog/misbehaving-ai-cost/)  
+> - 🚨 Real-world damage: [12 well-known AI and analytics failures](https://www.cio.com/article/190888/5-famous-analytics-and-ai-disasters.html)
 
 ---
 
@@ -180,7 +188,7 @@ Risk Management is a long-standing function in highly regulated industries like 
 
 ## Evolving Your Shield
 
-Being data/AI-driven means upgrading your risk management. Risk professionals must develop **AI fluency**, not just for compliance, but to work collaboratively with developers and business users.
+Being data/AI-driven means upgrading your risk management. Risk professionals must develop **AI literacy**, not just for compliance, but to work collaboratively with developers and business users.
 
 [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)  
 [Segment Data Governance Guide](https://segment.com/data-hub/data-governance/framework/#:~:text=A%20data%20governance%20framework%20allows,strategize%2C%20and%20discover%20new%20opportunities.)
@@ -208,9 +216,31 @@ Measuring the return on investment (ROI) for AI governance can be challenging bu
    - Reduction in incident frequency or severity related to AI models  
    - Enhanced system uptime and stability statistics
    - 
+
 ---
 
-## English–Chinese Glossary
+## AI Governance Tooling
+
+AI governance tooling is still nascent—unlike mature data governance tools like Purview, Dataplex, or Collibra, there’s no fully integrated solution yet. Here’s what’s currently available:
+
+- **AI Registry**:  
+  All major cloud platforms offer model registries—**Vertex AI (GCP)**, **Azure ML**, and **SageMaker (AWS)**. These support versioning and lineage but lack key governance metadata like intended use, risk classification, and business ownership. Custom fields or external metadata stores are often needed.
+
+- **Audit Logs for Conformity Assessment**:  
+  **GCP Cloud Audit Logs**, **Azure Monitor Logs**, and **AWS CloudTrail** provide infrastructure-level tracking. However, they don’t capture model-specific events by default. To support conformity assessments, you’ll need to instrument your models and set up workflows using **Cloud Functions**, **Azure Functions**, or **AWS Lambda**.
+
+- **Model Cards**:  
+  **AWS** supports model cards via **SageMaker**, and **GCP** offers an open-source **Model Card Toolkit**. **Azure** seems like currently has no native support. In all cases, generating, storing, and displaying model cards still requires custom development.
+
+- **Commercial Tools (COTS)**:  
+  - **Credo AI** shows strong potential for dedicated AI governance, but integration with your cloud and MLOps stack should be validated.  
+  - **Alation** and **Collibra** are extending their platforms to include AI governance capabilities, but current offerings vary and may require configuration or customization.  
+
+---
+
+# English–Chinese Glossary
+
+A quick translation of multiple english term to chinese
 
 | English Term                                           | 中文                |
 | ------------------------------------------------------ | ------------------- |
@@ -230,6 +260,7 @@ Measuring the return on investment (ROI) for AI governance can be challenging bu
 | RACI                                                   | 责任矩阵            |
 | Model drift                                            | 模型漂移            |
 
+
 ---
 
 ## Summary
@@ -245,4 +276,8 @@ You can't say you care about **AI safety** without taking a hard look at your **
 - IAPP Certified AI Governance Professional (AIGP): [Learn More](https://iapp.org/certify/aigp/)
 - Google, Microsoft, Databricks, AWS MLOps & Responsible AI documentation (linked above)
 - CIO.com, Datarobot breach cost studies 
-
+- https://github.com/tensorflow/model-card-toolkit
+- https://docs.aws.amazon.com/sagemaker/latest/dg/governance.html
+- https://www.alation.com/solutions/artificial-intelligence/
+- https://www.credo.ai/product
+- 
