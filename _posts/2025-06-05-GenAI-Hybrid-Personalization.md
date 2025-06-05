@@ -29,7 +29,9 @@ This layer captures long-term user preferences based on historical user-item int
 ### 2. Generative AI Re-ranking Layer
 On top of the base Deep CF model, we introduce a GenAI-based re-ranking module. This layer uses recent context (e.g., current time, device type, recently watched genres, session length) to adjust the original ranking from Deep CF, simulating how a human assistant would adjust suggestions based on a user's current behavior or mood.
 
-The GenAI layer enhances personalization by interpreting unstructured user context and reshuffling or filtering the list of items accordingly using natural language prompts and domain logic.
+The GenAI layer enhances personalization by interpreting user context and reshuffling or filtering the list of items accordingly using natural language prompts and domain logic.
+
+If you play around with the demo, you will see that DeepCF may rank some movie higher, but based on user choice (for example: prefer to watch comedy now), it will move up other recommendation ranking
 
 ![Overall Architecture][Overall solution architecture]
 *Overall solution architecture*
