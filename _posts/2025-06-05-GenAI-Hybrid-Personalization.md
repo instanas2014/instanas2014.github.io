@@ -31,7 +31,7 @@ On top of the base Deep CF model, we introduce a GenAI-based re-ranking module. 
 
 The GenAI layer enhances personalization by interpreting user context and reshuffling or filtering the list of items accordingly using natural language prompts and domain logic.
 
-If you play around with the demo, you will see that DeepCF may rank some movie higher, but based on user choice (for example: prefer to watch comedy now), it will move up other recommendation ranking
+From the demo, you will see that DeepCF may rank some movie higher, but based on user choice (for example: prefer to watch comedy now), it will move up other recommendation ranking (can also check the screenshot above)
 
 ![Overall Architecture][Overall solution architecture]
 *Overall solution architecture*
