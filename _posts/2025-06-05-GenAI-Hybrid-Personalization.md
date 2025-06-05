@@ -84,30 +84,52 @@ The main objective is to show how we can combine Gen AI and Deep Learning for hy
 
 
 ---
-## Deep Collaborative Filtering vs. Wide-&-Deep Learning
+# Other Approaches to Personalization
 
-Another widely used deep learning approach in personalization is **Wide & Deep Learning**, popularized by Google ([reference](https://research.google/blog/wide-amp-deep-learning-better-together-with-tensorflow/)). While **Deep Collaborative Filtering (Deep CF)** focuses on learning latent user–item interaction patterns using embeddings, **Wide & Deep Learning** combines **memorization** (through a linear wide component) and **generalization** (through deep neural networks).
+## Deep Collaborative Filtering vs. Wide & Deep Learning
 
-Although initially designed for tasks like app recommendations and search ranking, Wide & Deep Learning can be generalized to other domains such as content personalization and e-commerce. It supports incorporating richer signals such as:
-- User profile attributes (e.g., age, location)
-- Item metadata (e.g., genre, category)
-- Contextual features (e.g., time of day, device type)
+A popular alternative to Deep Collaborative Filtering (Deep CF) is **Wide & Deep Learning**, introduced by Google ([read more](https://research.google/blog/wide-amp-deep-learning-better-together-with-tensorflow/)). 
 
-This makes it well-suited for feature-rich, real-time personalization.
+While **Deep CF** learns latent user–item patterns through embeddings, **Wide & Deep** combines:
+- A **wide (linear)** component for memorizing common patterns
+- A **deep neural network** for generalizing to new feature combinations
+
+It works especially well when rich metadata is available, such as:
+- **User attributes** (age, location)
+- **Item features** (category, brand)
+- **Context** (time of day, device)
+
+This allows for more nuanced personalization, especially in cold-start scenarios.
 
 ### 🔍 Quick Comparison
 
-| Feature                   | Deep Collaborative Filtering (Deep CF)                      | Wide & Deep Learning                                      |
-| ------------------------- | ----------------------------------------------------------- | --------------------------------------------------------- |
-| **Core Idea**             | Learn latent representations for users/items via embeddings | Combine linear (wide) and deep neural networks            |
-| **Input Type**            | Encoded user and item IDs                                   | Rich feature vectors (user/item/context features)         |
-| **Personalization Basis** | Past user-item interactions                                 | User/item features + interaction patterns                 |
-| **Cold Start Handling**   | Weak (relies on historical data)                            | Strong (can use features to predict for new users/items)  |
-| **Feature Engineering**   | Minimal (only user/item IDs)                                | Rich feature inclusion (age, device, item category, etc.) |
-| **Interpretability**      | Lower (latent factors are hard to interpret)                | Higher (wide part includes interpretable features)        |
-| **Scalability**           | Scales well with large user-item matrices                   | More complex, may need careful tuning and feature prep    |
-| **Use Cases**             | Personalized content ranking, collaborative recommenders    | Ads, app recommendations, e-commerce personalization      |
+| Aspect                  | Deep CF                           | Wide & Deep                                |
+| ----------------------- | --------------------------------- | ------------------------------------------ |
+| **Core Idea**           | Learn latent embeddings           | Combine memorization & generalization      |
+| **Inputs**              | User & item IDs                   | Rich features (user, item, context)        |
+| **Cold Start Handling** | Weak                              | Strong                                     |
+| **Interpretability**    | Low                               | Higher (linear terms are more transparent) |
+| **Scalability**         | Efficient with large interactions | Requires more feature engineering          |
+| **Use Cases**           | Streaming, content ranking        | Ads, e-commerce, search                    |
 
+---
+
+## Reinforcement Learning
+
+**Reinforcement Learning (RL)** offers another method—dynamically adapting recommendations based on real-time feedback. For example, **Expedia** used **Thompson Sampling** to optimize image selection ([case study](https://medium.com/expedia-group-tech/how-we-optimized-hero-images-on-hotels-com-using-multi-armed-bandit-algorithms-4503c2c32eae)).
+
+However, RL systems require:
+- Large volumes of interaction data
+- Real-time infrastructure
+- Careful tuning (exploration vs. exploitation)
+
+---
+
+## In Short..
+
+Using **Gen AI as a re-ranking layer** is a practical way to enhance personalization. It acts like a human overlay—reordering base recommendations using real-time signals such as recency, time, or mood—without retraining the entire model.
+
+This hybrid design combines the **robustness of Deep CF** with the **contextual intelligence of Gen AI**.
 
 ---
 
